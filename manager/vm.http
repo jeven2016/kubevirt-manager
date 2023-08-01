@@ -1,0 +1,10 @@
+### list vm
+GET http://localhost:9999/vms
+
+
+### Create vm
+POST http://localhost:9999/vms
+
+
+### Start VM
+POST http://localhost:9999/vms/testvm?action=start

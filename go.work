@@ -1,0 +1,10 @@
+go 1.19
+
+use (
+	kubevirt.io/client-go
+	manager
+)
+
+replace (
+	kubevirt.io/client-go v1.0.0 => ./kubevirt.io/client-go
+)
